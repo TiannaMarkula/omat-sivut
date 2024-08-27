@@ -1,0 +1,309 @@
+
+body
+{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(revontulet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: #fff;
+    
+}
+
+.navbar {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff(157, 0, 134);
+    color: blueviolet;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover {
+    background-color: plum;
+}
+
+.toggle-button{
+  position: absolute; 
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar{
+   height: 3px;
+   width: 100%;
+   background-color: plum; 
+   border-radius: 10px;
+}
+@media (max-width:600px) {
+
+    .toggle-button {
+        display: flex;
+    }
+   .navbar-links {
+    display: none;
+    width: 100%;
+   }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links li:hover {
+        background-color: plum;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    
+}
+
+
+h1
+{
+   font-style: italic;
+    font-size: 90px;
+    float: right;
+    color: white;
+    padding-right: 15%;
+    padding-top: 12%;
+    
+}
+.sininen{
+    color: rgb(126, 60, 185);
+}
+.iso {
+    font-size: large;
+}
+
+
+.purple
+{
+color: black;
+
+}
+
+[target] {
+    color: brown;
+    text-decoration: none;
+}
+[href] {
+    text-decoration: none;
+    font-size: large;
+}
+
+
+
+
+[href*="ese"]
+{
+    color: green;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+   
+
+    }
+    
+
+     
+      
+      .container{
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .comment-box {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+      
+      .comment-title {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #fff;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      .form-group label {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #fff;
+      }
+      
+      .form-group input[type="text"],
+      .form-group input[type="email"],
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        transition: background-color 0.3s;
+        background-color: #f2f2f2;
+        color: purple;
+      }
+      
+      .form-group input[type="text"]:focus,
+      .form-group input[type="email"]:focus,
+      .form-group textarea:focus {
+        background-color: #fff;
+      }
+      
+      .btn-submit {
+        background-color: plum;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .btn-submit:hover {
+        background-color: plum;
+      }
+      
+      .gradient-bg {
+        background: linear-gradient(to bottom, black, purple);
+      }
+
+
+      .gradient-bg .btn-submit {
+        background-color: #fff;
+        color: violet;
+        border: 2px solid #fff;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      
+      .gradient-bg .btn-submit:hover {
+        background-color: black;
+        color: #fff;
+      }
+
+      .poss_cen {
+
+        color: white;
+        float: left;
+        padding-left: 9%;
+        padding-top: 10%;
+      }
+
+      .img_deg {
+
+
+          float: right;
+          padding-right: 190px;
+          padding-top: 6%;
+         
+          width: 300px;
+          
+       
+      }
+
+      .nauvo
+
+      {
+
+
+        float: left;
+        padding-left: 90px;
+        padding-top: 6%;
+       padding-bottom: 100px;
+        width: 300px;
+        
+     
+    }
+
+     
+
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+ 
+  color: white;
+  text-align: center;
+}
+
+
+
+.mina {
+
+  float: left;
+  
+  padding-left: 10%;
+  padding-bottom: 10%;
+  width: 400px;
+  
+}
+
+.tyokokemus {
+
+color:white
+}
+
+
+.portfolio
+{
+float: center;
+padding-top: 80px;
+color: white;
+
+}
+.harrastukset
+{
+  color: white;
+}
