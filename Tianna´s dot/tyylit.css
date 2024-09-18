@@ -305,3 +305,9 @@ color: white;
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
