@@ -307,5 +307,6 @@ color: white;
     main {
       flex-wrap: nowrap;
         scale: 90%
+        display: flex
     }
 
