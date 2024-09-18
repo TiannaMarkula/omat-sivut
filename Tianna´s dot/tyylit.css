@@ -10,7 +10,6 @@ body
     background-size: cover;
     text-shadow: #fff;
     
-    
 }
 
 .navbar {
@@ -93,8 +92,7 @@ body
     .navbar-links.active {
         display: flex;
     }
-
-    
+  
 }
 
 
@@ -132,8 +130,6 @@ color: black;
 }
 
 
-
-
 [href*="ese"]
 {
     color: #FF0000;
@@ -147,8 +143,7 @@ img {
     }
     
 
-     
-      
+       
       .container{
         max-width: 600px;
         margin: 0 auto;
