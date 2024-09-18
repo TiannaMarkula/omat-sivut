@@ -63,9 +63,6 @@ body
 }
 @media (max-width:600px) {
     
-    flex-wrap: nowrap;
-        scale: 90%
-        display: flex
 
 
     .toggle-button {
